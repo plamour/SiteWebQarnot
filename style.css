@@ -1,7 +1,15 @@
+html,html {
+    margin: 0;
+    padding: 0;
+}
 .nav_container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+#logo_placeholder {
+    height: 1px;
 }
 .text_container {
     border: 1px solid black;
