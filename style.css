@@ -1,8 +1,9 @@
-html,html {
+html, body {
     margin: 0;
-    padding: 0;
 }
+
 .nav_container{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -15,5 +16,6 @@ html,html {
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
+    width: 250px;
 
 }
