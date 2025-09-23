@@ -8,6 +8,23 @@ html, body {
     flex-direction: row;
     justify-content: space-evenly;
 }
+.nav_element:hover {
+    background-color: magenta;
+    color: white;
+
+
+}
+.nav_element{
+    color: black;
+    text-decoration: none;
+    border: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+
+}
+
 
 #logo_placeholder {
     width: 70px;
@@ -17,5 +34,4 @@ html, body {
     border-radius: 10px;
     padding: 5px;
     width: 250px;
-
 }
