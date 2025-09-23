@@ -28,6 +28,10 @@ html, body {
 
 #logo_placeholder {
     width: 70px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 .text_container {
     border: 1px solid black;
