@@ -10,7 +10,7 @@ html, body {
 }
 
 #logo_placeholder {
-    height: 1px;
+    width: 70px;
 }
 .text_container {
     border: 1px solid black;
