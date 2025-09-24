@@ -55,6 +55,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0;
 
 }
 .inside_container {
@@ -64,8 +65,22 @@ html, body {
 }
 #subcontainer_01 {
     align-self: flex-end;
+    margin-bottom: 150px;
+    margin-right: 350px;
+}
+#upcontainer_01 {
+    margin-bottom: 150px;
 }
 .text_container {
     border: 1px solid black;
     padding: 5px;
+}
+#subcontainer_01, #upcontainer_01 {
+    background-color: white;
+}
+#main_text_container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: auto;
 }
