@@ -25,6 +25,13 @@ html, body {
 
 
 }
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items : center;
+
+}
 
 .text_container {
     border: 1px solid black;
@@ -48,6 +55,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .inside_container {
     border: 1px solid black;
@@ -56,4 +64,8 @@ html, body {
 }
 #subcontainer_01 {
     align-self: flex-end;
+}
+.text_container {
+    border: 1px solid black;
+    padding: 5px;
 }
