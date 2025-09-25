@@ -91,8 +91,15 @@ header {
     width: 1200px;
 }
 
+.border_container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
 #first_section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 25px;
+    padding: 20px;
 }
