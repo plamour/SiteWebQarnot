@@ -1,6 +1,10 @@
 html, body {
     margin: 0;
+    background-color: mintcream;
+    color: black;
 }
+
+
 
 .nav_container{
     margin-top: 10px;
@@ -10,10 +14,11 @@ html, body {
     align-items: center;
 }
 .nav_element:hover {
-    background-color: magenta;
-    color: white;
+    background-color: #2541B2;
 
-
+}
+header {
+    padding-top: 10px;
 }
 .nav_element{
     color: black;
@@ -22,7 +27,7 @@ html, body {
     padding: 10px 15px;
     border-radius: 25px;
     margin-right: auto;
-
+    font-size: 24px;
 
 }
 .container {
@@ -31,13 +36,15 @@ html, body {
     gap: 100px;
     align-items : center;
 
+
 }
 
 .text_container {
-    border: 1px solid black;
-    border-radius: 10px;
+
     padding: 5px;
     width: 250px;
+    background-color: white;
+
 }
 #logo_placeholder {
     width: 70px;
@@ -72,7 +79,6 @@ html, body {
     margin-bottom: 150px;
 }
 .text_container {
-    border: 1px solid black;
     padding: 5px;
 }
 #subcontainer_01, #upcontainer_01 {
@@ -82,5 +88,5 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     height: 50px;
-    width: auto;
+    width: 1200px;
 }
