@@ -14,3 +14,7 @@ Etudiant 3 : [JEANROT](mailto:jules.jeanrot@edu.umlp.fr?subject=SAE_1_05_06)
 
 Ce projet a pour but de presenter l'entreprise qarnot computing
 Nous decrivons l'activité economique et les activités de l'entreprise de multiple maniére sur un wite web informatif.
+
+
+#info-contributeur
+ BlueberrySudo est le double compte de noe.laurencot il s'est retrouvée par erreur dans le commit.
