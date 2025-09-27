@@ -1,23 +1,24 @@
 body {
     margin: 0;
-    padding-top: 70px;
+    padding-top: 70px;  /* Pour compenser la navbar fixe et qu'il y ait rien de caché derrière*/
     background-color: rgb(255, 255, 255);
     font-family: Ubuntu, Helvetica, sans-serif
 }
+
+/* Style de la navbar */
 
 nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1000; /* Pour que la navbar soit au premier plan */
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     min-height: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgb(255, 255, 255);
+    background-color: oklch(100% 0.00011 271.152);
 }
 
 .logo img {
@@ -45,55 +46,65 @@ nav {
     background-color: rgb(175, 175, 175);
 }
 
-#first-section-container {
+.active-page {
+    border-left: 5px solid #5a5a5a;
+    border-top: 5px solid #5a5a5a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style de la page*/
+
+.page-title {
     display: flex;
-    margin: 20px 40px;
-    gap: 20px;
+    justify-content: center;
+    margin: 40px 20px;
+    font-size: 2em;
+}   
+
+.page-title h1 {
+    margin: 0;
+    padding: 20px 20px;
+    border-left: 10px solid #000;
+    background-color: rgb(220, 220, 220);
+    border-radius: 8px;
+}
+
+.section-container {
+    margin: 40px 40px;
+    display: flex;
     justify-content: center;
     align-items: flex-start;
+    gap: 20px;
 }
 
 .text-container {
+    max-height: calc(30vw - 40px);
+    max-width: 30vw;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: rgb(255, 255, 255);
-    max-width: 400px;
-    min-width: 230px;
+    background-color: white;
+    overflow: auto;
 }
 
-.image-container img {
+.section-container img {
+    height: 30vw;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#first-section-home-container {
-    position: relative;
+.content-tile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: min-content;
 }
 
-#first-section-home-container img {
-    width: 100%;
-    height: calc(100vh - 70px);
-    object-fit: cover;
+.content-tile .text-container {
+    text-align: center;
 }
 
-.text-overlay {
-    position: absolute;
-    top: 20%;
-    left: 10vw;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    font-size: 1.2em;
-    max-width: 700px;
-}
-
-.text-overlay .blur-bg {
-    background-color: rgba(0, 0, 0, 0.05);
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 8px;
-    backdrop-filter: blur(5px);
-}
+/* Style du footer */
 
 footer {
     display: flex;
@@ -105,6 +116,60 @@ footer {
     border-radius: 10px;
 }
 
-.footer-content {
-    text-align: center;
+/* Styles spécifiques à certaines pages */
+
+/* Page d'accueil */
+
+#home-image img {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    object-fit: cover;
+    border-radius: 0;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+#home-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    top: calc(80px + 10%);
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 50px;
+}
+
+#home-title,
+#home-subtitle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    background-color: #0000000c;
+    border-radius: 8px;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+#home-title {
+    font-size: 1.6em;
+    max-width: 70%;
+}
+
+#home-subtitle {
+    font-size: 1.2em;
+}
+
+.home-page .section-container .text-container{
+    max-width: none;
+}
+
+
+/* Page 1 */
+
+
+
+/* Page 2 */
