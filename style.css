@@ -18,7 +18,7 @@ nav {
     align-items: center;
     min-height: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: oklch(100% 0.00011 271.152);
+    background-color: lab(100% 0.01 -0.01);
 }
 
 .logo img {
@@ -32,12 +32,14 @@ nav {
     flex: auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-right: 80px;
 }
 
 .nav-links a {
     color: black;
     text-decoration: none;
     padding: 10px 30px;
+    margin: 5px 0;
     border-radius: 8px;
     transition: background-color 0.3s;
 }
@@ -54,17 +56,26 @@ nav {
 
 /* Style de la page*/
 
-.page-title {
+.page-title-left,
+.page-title-right {
     display: flex;
     justify-content: center;
     margin: 40px 20px;
     font-size: 2em;
 }   
 
-.page-title h1 {
+.page-title-left h1 {
     margin: 0;
     padding: 20px 20px;
     border-left: 10px solid #000;
+    background-color: rgb(220, 220, 220);
+    border-radius: 8px;
+}
+
+.page-title-right h1 {
+    margin: 0;
+    padding: 20px 20px;
+    border-right: 10px solid #000;
     background-color: rgb(220, 220, 220);
     border-radius: 8px;
 }
@@ -173,3 +184,8 @@ footer {
 
 
 /* Page 2 */
+
+
+.second-page #main-paragraph {
+    max-width: none;
+}

@@ -1,82 +1,78 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="fr">
 
 <head>
-
 	<title>Page 2</title>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<link href="style.css" rel="stylesheet">
-
 </head>
 
-<body>
-
+<body class="second-page">
 	<header>
-        <nav>
-            <div class="logo">
-                <a href="index.html"><img id="logo_placeholder" src="assets/logo-placeholder.png" alt="logo"></a>
-            </div>
+		<nav>
+			<div class="logo">
+				<a href="index.html"><img id="logo_placeholder" src="assets/logo-placeholder.png" alt="logo"></a>
+			</div>
 
-            <div class="nav-links">
-                <a href="index.html"><strong>Accueil</strong></a>
-                <a href="page1.html"><strong>Page 1</strong></a>
-                <a class="active-page" href="page2.html"><strong>Page 2</strong></a>
-        </nav>
-
+			<div class="nav-links">
+				<a href="index.html"><strong>Accueil</strong></a>
+				<a href="page1.html"><strong>Page 1</strong></a>
+				<a class="active-page" href="page2.html"><strong>Page 2</strong></a>
+		</nav>
 	</header>
 
-	<hr>
+	<div class="page-title-right">
+		<h1>
+			Titre principale page 2
+		</h1>
+	</div>
 
-	<div id="main_container">
-
-		<h1 class="center">Titre principal</h1> <!-- centré -->
-
-		<br>
-
-		<p class="text_container center">Ceci est le paragraphe principal qui sert d'entrée en matière au thème de la page. </p>
-
-		<br>
-
-		<section class="section_image center">
-			<h2>Sous titre 1</h2>
-			<div>
-				<div class="text_container">
-					Ceci est un paragraphe illustré d'une image sa droite.
-				</div>
-				<div class="image_container">
-					<img src="https://placehold.co/200x200" alt="alt de L'image">
-				</div>
-			</div>
-		</section>
-
-		<section class="section_image center">
-			<h2>Sous titre 2</h2>
-			<div>
-				<div class="image_container">
-					<img src="https://placehold.co/200x200" alt="alt de L'image">
-				</div>
-				<div class="text_container">
-					Ceci est un paragraphe illustré d'une image sa gauche.
-				</div>	
-			</div>
-		</section>
-
-		<section class="section_image center">
-			<h2>Sous titre 3</h2>
-			<div>
-				<div class="text_container">
-					Ceci est un paragraphe illustré d'une image sa droite.
-				</div>
-				<div class="image_container">
-					<img src="https://placehold.co/200x200" alt="alt de L'image">
-				</div>
-			</div>
-		</section>
+	<div class="section-container">
+		<div class="text-container" id="main-paragraph">
+			<p>
+				Ceci est le paragraphe principal qui sert d'entrée en matière au thème de la page.
+			</p>
+		</div>
 
 	</div>
 
-	<br>
-	<hr>
+	<section>
+		<div class="section-container">
+			<div class="text-container">
+				<h2>Sous-titre</h2>
+				<p>Ceci est un paragraphe illustré d'une image sa droite. 
+				</p>
+			</div>
+
+			<div>
+				<img src="https://placehold.co/600x400?text=image" alt="image">
+			</div>
+		</div>
+
+		<div class="section-container">
+			<div>
+				<img src="https://placehold.co/600x400?text=image" alt="image">
+			</div>
+
+			<div class="text-container">
+				<h2>Sous-titre</h2>
+				<p>Ceci est un paragraphe illustré d'une image sa gauche. 
+				</p>
+			</div>
+		</div>
+
+		<div class="section-container">
+			<div class="text-container">
+				<h2>Sous-titre</h2>
+				<p>Ceci est un paragraphe illustré d'une image sa droite. 
+				</p>
+			</div>
+
+			<div>
+				<img src="https://placehold.co/600x400?text=image" alt="image">
+			</div>
+		</div>
+	</section>
 
 	<footer>
 		(Footer)
