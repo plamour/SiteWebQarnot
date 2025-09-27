@@ -1,53 +1,71 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
-    <title>Page D'Accueil</title>
+    <title>Page d'Accueil</title>
 </head>
-<body>
-<header>
-    <nav>
-        <div class="nav_container">
-            <a id="logo_placement" href="index.html"><img id="logo_placeholder" src="assets/logo-placeholder.png" alt="logo"></a>
-            <a class="nav_element" href="index.html"><strong>Accueil</strong></a>
-            <a href="page1.html" class="nav_element"><strong>Page 1</strong></a>
-            <a href="page2.html" class="nav_element"><strong>Page 2</strong></a>
-        </div>
-        <hr>
-    </nav>
-</header>
-<br>
-<section class="first_section">
-    <div class="container" id="main_container"> <!-- TODO: tweak the flex to align the text container better -->
-        <div id="upcontainer_01" class="text_container"> TITRE PRINCIPAL</div>
-        <div id="subcontainer_01" class="text_container">Un Paragraphe de presentation </div>
 
-    </div>
-    <br>
-    <div class="text_container" id="main_text_container"> <!-- TODO: adjust the text zone -->
-        ceci est un paragraphe très long qui donnerra très pas envie avec beaucoup de répétition pour remplir un trou que personne ne lira
-    </div>
-    <br>
-</section>
-<section class="second_section">
-    <div class="container">
-        <div><img src="https://placehold.co/600x400" alt="placeholder"> </div>
-        <div class="text_container">        ceci est un paragraphe très long qui donnerra très pas envie avec beaucoup de répétition pour remplir un trou que personne ne lira</div>
-    </div>
-    <br>
-    <div class="container">
-        <div class="text_container"> ceci est un paragraphe très long qui donnerra très pas envie avec beaucoup de répétition pour remplir un trou que personne ne lira
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img id="logo_placeholder" src="assets/logo-placeholder.png" alt="logo"></a>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html"><strong>Accueil</strong></a>
+                <a href="page1.html"><strong>Page 1</strong></a>
+                <a href="page2.html"><strong>Page 2</strong></a>
+        </nav>
+    </header>
+
+
+    <section id="first-section-home">
+        <div id="first-section-home-container">
+            <img src="https://placehold.co/100x100" alt="image principale">
+            <div class="text-overlay">
+                <div>
+                    <h1>Bienvenue sur la page d'accueil</h1>
+                </div>
+                <div>
+                    <p>
+                        Ceci est un paragraphe de texte qui prend de la place pour présenter à quoi ressemble un bloc de
+                        mots sur une page, il montre la longueur, le rythme et l'espace sans donner d'information utile
+                    </p>
+                </div>
+            </div>
+    </section>
+
+
+    <section id="second-section">
+        <div>
+            <div>
+                <img src="https://placehold.co/600x400" alt="placeholder">
+            </div>
+            <div class="text-container">
+                ceci est un paragraphe très long qui donnerra très pas envie avec beaucoup de
+                répétition pour remplir un trou que personne ne lira
+            </div>
         </div>
-        <div><img src="https://placehold.co/600x400" alt="placeholder"> </div>
-    </div>
-</section>
-<footer>
-    <hr>
-    <div class="container">
-        <div class="foot_text_container">
+
+
+        <div class="container">
+            <div class="text-container"> ceci est un paragraphe très long qui donnerra très pas envie avec beaucoup de
+                répétition pour remplir un trou que personne ne lira
+            </div>
+            <div>
+                <img src="https://placehold.co/600x400" alt="placeholder">
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
             AUTEUR : PIERRE LAMOUR
             <br>
             Étudiant département Informatique
@@ -56,7 +74,7 @@
             <br>
             IUT NFC Secteur Belfort
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>

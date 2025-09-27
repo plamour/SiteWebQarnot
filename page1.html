@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,48 @@
     <link rel="stylesheet" href="style.css">
     <title>Page 1</title>
 </head>
+
 <body>
-<header>
-    <nav >
-        <div class="nav_container">
-            <a id="logo_placement"  href="index.html"><img id="logo_placeholder" src="assets/logo-placeholder.png" alt="logo"></a>
-            <a class="nav_element" href="index.html"><strong>Accueil</strong></a>
-            <a class="nav_element" href="#"><strong>Page 1</strong></a>
-            <a class="nav_element" href="page2.html"><strong>Page 2</strong></a>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img id="logo-placeholder" src="assets/logo-placeholder.png" alt="logo"></a>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html"><strong>Accueil</strong></a>
+                <a href="#"><strong>Page 1</strong></a>
+                <a href="page2.html"><strong>Page 2</strong></a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="first-section">
+        <div id="first-section-container">
+            <div class="text-container">
+                <h1>Titre principale page</h1>
+                <p>Ceci est un paragraphe de texte qui prend de la place pour présenter à quoi ressemble un bloc de mots
+                    sur
+                    une page, il montre la longueur, le rythme et l'espace sans donner d'information utile, il sert à
+                    tester
+                    la mise en page et à dire où le vrai contenu ira plus tard, il utilise des mots simples pour rester
+                    facile à lire
+                </p>
+            </div>
+
+            <div class="image-container">
+                <img src="https://placehold.co/600x400" alt="image principale">
+            </div>
         </div>
-        <hr>
-    </nav>
-    <section id="first_section">
-        <div class="border_container">
-            <h1>Titre principale page</h1>
-            <br>
-            <p>ceci est un paragraphe très long qui donnerra très pas envie avec beaucoup de répétition pour remplir un trou que personne ne lira</p>
-            <p>ceci est un paragraphe très long qui donnerra très pas envie avec beaucoup de répétition pour remplir un trou que personne ne lira</p>
-        </div>
-        <div>
-            <img src="https://placehold.co/600x400" alt="image principale">
-        </div>
+
+
     </section>
     <footer>
-        <p>Noé Laurençot - Page 1</p>
+        <div class="footer-content">
+            Noé Laurençot - Page 1
+        </div>
     </footer>
-</header>
+
 </body>
+
 </html>
