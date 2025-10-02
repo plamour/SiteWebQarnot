@@ -23,7 +23,7 @@ nav {
 
 .logo img {
     display: block;
-    margin-left: 10px;
+    margin: 10px;
     height: 70px;
 }
 
@@ -177,7 +177,7 @@ footer {
 }
 
 .home-page .section-container .text-container{
-    max-width: none;
+    max-width: 30vw;
 }
 
 
