@@ -33,6 +33,7 @@ nav {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-right: 80px;
+    align-items: center;
 }
 
 .nav-links a {
@@ -46,6 +47,7 @@ nav {
 
 .nav-links a:hover {
     background-color: rgb(175, 175, 175);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.);
 }
 
 .active-page {
