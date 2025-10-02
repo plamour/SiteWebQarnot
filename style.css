@@ -21,7 +21,7 @@ nav {
     background-color: lab(100% 0.01 -0.01);
 }
 
-.logo img {
+.logo {
     display: block;
     margin: 10px;
     height: 70px;
