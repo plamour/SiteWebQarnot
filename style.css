@@ -1,14 +1,16 @@
 body {
     /* Initialisation variables */
     --background: #35393c;
-    --background-sec: #42474a; /* navbar et zone de texte */
+    --background-sec: #42474a;
+    /* navbar et zone de texte */
     --white: #ffffff;
     --black: #000000;
     --main: #42858c;
     --secondary: #e07a5f;
 
     margin: 0;
-    padding-top: 70px;  /* Pour compenser la navbar fixe et qu'il y ait rien de caché derrière*/
+    padding-top: 70px;
+    /* Pour compenser la navbar fixe et qu'il y ait rien de caché derrière*/
     background-color: var(--background);
     color: var(--white);
     font-family: Ubuntu, Helvetica, sans-serif
@@ -21,7 +23,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Pour que la navbar soit au premier plan */
+    z-index: 1000;
+    /* Pour que la navbar soit au premier plan */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -68,13 +71,13 @@ nav {
 
 /* Style de la page*/
 
-.page-title-left,   
+.page-title-left,
 .page-title-right {
     display: flex;
     justify-content: center;
     margin: 40px 20px;
     font-size: 2em;
-}   
+}
 
 .page-title-left h1 {
     margin: 0;
@@ -188,7 +191,7 @@ footer {
     font-size: 1.2em;
 }
 
-.home-page .section-container .text-container{
+.home-page .section-container .text-container {
     max-width: 30vw;
 }
 
@@ -196,9 +199,47 @@ footer {
 /* Page 1 */
 
 .carousel {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    background-color: var(--background-sec);
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    background-color: #e07a5f;
+    width: calc(100% - 2em);
+    height: calc(100% - 2em) ;
+    padding: 1em;
+    display: none;
+}
+
+.carousel-item-active {
+    display: block;
+}
+
+.carousel-nav {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carousel-button {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+}
+
+.carousel-button-active {
+    background-color: rgba(255, 255, 255, 0.6);
+
 }
 
 /* Page 2 */
