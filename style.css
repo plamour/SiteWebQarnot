@@ -340,26 +340,34 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: stretch;
+    align-items: flex-start;
 }
-.sous-parent-texte {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 100vw;
-}
-.sous-parent-image {
 
-    height: 70vh;
-    position: sticky;
-    top: 15vh;
-    overflow: hidden;
-}
+
+
+
 .child-container {
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
     display: flex;
+}
+.child-img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.sous-parent-image {
+    position: sticky;
+    top: 25vh;
+    height: 50vh;
+    width: 35vw;
+    align-self: flex-start;
+}
+
+.child-img.active {
+    opacity: 1;
 }
 
 /* Page 3 */
