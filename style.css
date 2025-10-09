@@ -349,7 +349,7 @@ footer {
 .child-container {
     justify-content: flex-start;
     align-items: center;
-    height: 60vh;
+    height: 75vh;
     display: flex;
 }
 .child-img{
