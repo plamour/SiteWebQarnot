@@ -247,7 +247,13 @@ footer {
 
 /* Page 2 */
 
-
 .second-page #main-paragraph {
+    max-width: 60vw;
+}
+
+/* Page 3 */
+
+
+.third-page #main-paragraph {
     max-width: 60vw;
 }
