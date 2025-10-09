@@ -165,7 +165,7 @@ footer {
     flex-direction: column;
     position: absolute;
     justify-content: center;
-    top: calc(80px + 10%);
+    top: 225px;
     left: 50%;
     transform: translateX(-50%);
     gap: 50px;
@@ -203,22 +203,39 @@ footer {
 
 .carousel {
     position: relative;
-    background-color: var(--background-sec);
-    width: 600px;
+    width: 800px;
     height: 400px;
     margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
 }
 
 .carousel-item {
-    background-color: #e07a5f;
-    width: calc(100% - 2em);
-    height: calc(100% - 2em) ;
-    padding: 1em;
-    display: none;
+    min-width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    opacity: 0.6;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.carousel-item-active {
-    display: block;
+.carousel-item.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .carousel-nav {
@@ -228,6 +245,28 @@ footer {
     bottom: 0;
     left: 0;
     text-align: center;
+}
+
+.carousel-text {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    max-width: 70%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-text.show {
+    opacity: 1;
 }
 
 .carousel-button {
@@ -242,7 +281,37 @@ footer {
 
 .carousel-button-active {
     background-color: rgba(255, 255, 255, 0.6);
+}
 
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-arrow.prev {
+    left: 10px;
+}
+
+.carousel-arrow.next {
+    right: 10px;
 }
 
 /* Page 2 */
