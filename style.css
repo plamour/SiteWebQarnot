@@ -68,7 +68,7 @@ nav {
 
 /* Style de la page*/
 
-.page-title-left,
+.page-title-left,   
 .page-title-right {
     display: flex;
     justify-content: center;
@@ -195,6 +195,11 @@ footer {
 
 /* Page 1 */
 
+.carousel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Page 2 */
 
