@@ -195,6 +195,11 @@ footer {
 
 /* Page 1 */
 
+.carousel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Page 2 */
 
