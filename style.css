@@ -113,6 +113,9 @@ nav {
     border-bottom: solid 5px var(--secondary);
     border-right: solid 5px var(--secondary);
     overflow: auto;
+}
+
+.text-container p {
     font-family: 'Prompt', sans-serif;
 }
 
