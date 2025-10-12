@@ -376,3 +376,20 @@ footer {
 .third-page #main-paragraph {
     max-width: 60vw;
 }
+
+.third-page .image {
+    max-width: 40vw;
+    border-radius: 8px;
+    background-color: var(--background-sec);
+    border-bottom: solid 5px var(--main);
+    border-right: solid 5px var(--main);
+    overflow: auto;
+}
+
+.third-page .table-image {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    border-bottom: solid 5px var(--main);
+    border-right: solid 5px var(--main);
+}
