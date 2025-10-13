@@ -349,6 +349,17 @@ footer {
     justify-content: space-evenly;
     align-items: flex-start;
 }
+.text-container-index {
+    max-height: calc(30vw - 40px);
+    max-width: 70vw;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: var(--background-sec);
+    border-bottom: solid 5px var(--secondary);
+    border-right: solid 5px var(--secondary);
+    overflow: auto;
+}
 
 .child-container {
     justify-content: flex-start;
@@ -359,6 +370,10 @@ footer {
 .child-img{
     position: absolute;
     opacity: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     transition: opacity 0.5s ease-in-out;
 }
 
@@ -368,6 +383,8 @@ footer {
     height: 50vh;
     width: 35vw;
     align-self: flex-start;
+
+
 }
 
 .child-img.active {
@@ -379,4 +396,21 @@ footer {
 
 .third-page #main-paragraph {
     max-width: 60vw;
+}
+
+.third-page .image {
+    max-width: 40vw;
+    border-radius: 8px;
+    background-color: var(--background-sec);
+    border-bottom: solid 5px var(--main);
+    border-right: solid 5px var(--main);
+    overflow: auto;
+}
+
+.third-page .table-image {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    border-bottom: solid 5px var(--main);
+    border-right: solid 5px var(--main);
 }
