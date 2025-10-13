@@ -75,7 +75,7 @@ nav {
 .page-title-right {
     display: flex;
     justify-content: center;
-    margin: 40px 20px;
+    margin: 40px 100px;
     font-size: 2em;
 }
 
@@ -221,7 +221,7 @@ footer {
 
 /* Page 1 */
 
-.first-page .large-img {
+.large-img {
     width: 600px;
     height: 400px;
 }
@@ -392,6 +392,12 @@ footer {
 
 .second-page #main-paragraph {
     max-width: 60vw;
+}
+
+.second-page .table-image {
+    width: 400px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* page d'accueil*/

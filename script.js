@@ -48,7 +48,6 @@ document.querySelectorAll(".carousel").forEach(carousel => {
             textDisplay.classList.remove("show");
         }
         
-        // Update description box below carousel
         const currentDescription = items[currentIndex].getAttribute("data-description");
         if (descriptionBox && currentDescription) {
             descriptionBox.textContent = currentDescription;
