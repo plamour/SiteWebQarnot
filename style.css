@@ -215,6 +215,14 @@ footer {
 
 /* Page 1 */
 
+.first-page .large-img {
+    width: 600px;
+    height: 400px;
+    
+}
+
+/*-------*/
+
 .carousel {
     position: relative;
     width: 800px;
@@ -342,9 +350,6 @@ footer {
     justify-content: space-evenly;
     align-items: flex-start;
 }
-
-
-
 
 .child-container {
     justify-content: flex-start;
