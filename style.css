@@ -368,6 +368,26 @@ footer {
     text-align: center;
 }
 
+.text-big {
+    font-size: 4em;
+    font-weight: bold;
+}
+.content-end {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-end * {
+    display: flex;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
 /* Page 2 */
 
 .second-page #main-paragraph {
