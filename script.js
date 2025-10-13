@@ -20,6 +20,7 @@ document.querySelectorAll(".carousel").forEach(carousel => {
     const prevArrow = carousel.querySelector(".carousel-arrow.prev");
     const nextArrow = carousel.querySelector(".carousel-arrow.next");
     const textDisplay = carousel.querySelector(".carousel-text");
+    const descriptionBox = document.querySelector(".carousel-description p");
 
     function updateCarousel() {
         const itemWidth = 640; // 600px width + 40px marge
@@ -45,6 +46,12 @@ document.querySelectorAll(".carousel").forEach(carousel => {
             textDisplay.classList.add("show");
         } else {
             textDisplay.classList.remove("show");
+        }
+        
+        // Update description box below carousel
+        const currentDescription = items[currentIndex].getAttribute("data-description");
+        if (descriptionBox && currentDescription) {
+            descriptionBox.textContent = currentDescription;
         }
     }
 

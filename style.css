@@ -119,6 +119,11 @@ nav {
     font-family: 'Prompt', sans-serif;
 }
 
+.text-container a {
+    color: var(--main);
+    font-weight: bold;
+}
+
 .section-container img {
     height: 30vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -218,6 +223,26 @@ footer {
 .first-page .large-img {
     width: 600px;
     height: 400px;
+}
+
+.centered-margin {
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: var(--background-sec);
+    border-bottom: var(--secondary) solid 5px;
+    border-right: var(--secondary) solid 5px;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+.img-client {
+    transition: all 0.3s;
+}
+
+.img-client:hover{
+    cursor: pointer;
+    transform: scale(1.03) ;
 }
 
 /*-------*/
@@ -333,6 +358,13 @@ footer {
 
 .carousel-arrow.next {
     right: 10px;
+}
+
+.carousel-description {
+    max-width: 800px;
+    max-height: none;
+    margin: 30px auto;
+    text-align: center;
 }
 
 /* Page 2 */
