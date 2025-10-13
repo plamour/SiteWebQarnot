@@ -432,7 +432,7 @@ footer {
 
 .third-page .image {
     max-width: 40vw;
-    border-radius: 8px;
+    border-radius: 0 0 8px 0;
     background-color: var(--background-sec);
     border-bottom: solid 5px var(--main);
     border-right: solid 5px var(--main);
@@ -442,7 +442,7 @@ footer {
 .third-page .table-image {
     width: 400px;
     height: 250px;
-    border-radius: 8px;
+    border-radius: 0 0 8px 0;
     border-bottom: solid 5px var(--main);
     border-right: solid 5px var(--main);
 }
