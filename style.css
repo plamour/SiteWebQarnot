@@ -393,7 +393,9 @@ footer {
     border-right: solid 5px var(--secondary);
     overflow: auto;
 }
-
+#home-subtitle {
+    width: 100%;
+}
 .child-container {
     justify-content: flex-start;
     align-items: center;
