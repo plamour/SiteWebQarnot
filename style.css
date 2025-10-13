@@ -524,6 +524,11 @@ footer {
     max-width: 60vw;
 }
 
+.third-page #second-paragraph {
+    max-width: 60vw;
+    /* text-align: center; */
+}
+
 .third-page .image {
     max-width: 40vw;
     border-radius: 0 0 8px 0;
