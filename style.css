@@ -501,6 +501,7 @@ footer {
     width: 100%;
     height: 100%;
     transition: opacity 0.5s ease-in-out;
+    border: var(--secondary) solid 3px;
 }
 
 .sous-parent-image {
