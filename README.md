@@ -15,12 +15,14 @@ Etudiant 3 : [JEANROT](mailto:jules.jeanrot@edu.umlp.fr?subject=SAE_1_05_06)
 Ce projet SAÉ S1 05-06, a pour but de presenter l'entreprise qarnot computing
 Nous decrivons l'activité économique et les activités de l'entreprise de multiples manières sur un wite web informatif.
 
+Qarnot Computing est une entreprise ESN qui propose du calcul intensif en cloud, et des ordinateurs-radiateurs
+
 
 ## Développement Site Web et Validation des pages
 
 ### Page d'accueil
 
-** Auteur: : LAMOUR Pierre **
+**Auteur: : LAMOUR Pierre**
 
 Vérification W3C : (https://validator.w3.org/nu/?doc=https%3A%2F%2Fplamour.github.io%2FSiteWebQarnot%2F)
 
@@ -30,7 +32,7 @@ Vérification W3C : (https://validator.w3.org/nu/?doc=https%3A%2F%2Fplamour.gith
 
 ### Page 1 - Les offres
 
-** Auteur: : LAURENCOT Noé **
+**Auteur: : LAURENCOT Noé**
 
 Vérification W3C : (https://validator.w3.org/nu/?doc=https%3A%2F%2Fplamour.github.io%2FSiteWebQarnot%2Fpage1.html)
 
@@ -40,7 +42,7 @@ Vérification W3C : (https://validator.w3.org/nu/?doc=https%3A%2F%2Fplamour.gith
 
 ### Page 2 - Le marché
 
-** Auteurs: : LAURENCOT Noé et JEANROT Jules **
+**Auteurs: : LAURENCOT Noé et JEANROT Jules**
 
 Vérification W3C : (https://validator.w3.org/nu/?doc=https%3A%2F%2Fplamour.github.io%2FSiteWebQarnot%2Fpage2.html)
 
@@ -50,7 +52,7 @@ Vérification W3C : (https://validator.w3.org/nu/?doc=https%3A%2F%2Fplamour.gith
 
 ### Page 3 - L'organisation
 
-** Auteur: : JEANROT Jules **
+**Auteur: : JEANROT Jules**
 
 Vérification W3C : (https://validator.w3.org/nu/?doc=https%3A%2F%2Fplamour.github.io%2FSiteWebQarnot%2Fpage3.html)
 
